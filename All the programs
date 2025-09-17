@@ -1,0 +1,130 @@
+#1 Write a python program to print your name?   
+print("HELLO DEVI")
+
+# 2 get the input from user and print it 
+name= input("ENTER YOU NAME:  ")
+print("YOUR NAME :  ",name)
+
+# 3 get the input from user print 2 numbers 
+num1=input("ENTER YOUR FIRST NUMBER ")
+num2=input("ENTER YOUR SECOND NUMBER ")
+print("First Number : ",num1)
+print("Second Number : ",num2)
+
+# 4 get the input from usser and add 2 numbers 4
+num1=int(input("enter your first number "))
+num2=int(input("enter your second number "))
+sum =num1+num2
+print("Sum of two numbers :",sum) 
+
+# 5 concatenate first name and last name get input from user? 
+a=input("enter the first name :")
+b=input("enter the second name :")
+c=a+b
+print("your full name : ",c)
+
+# 6 write apython program get input from user swap 2 numbers without 3rd variable 
+a=10;
+b=20;
+a=a+b;
+b=a-b;
+a=a-b;
+print("a :",a)
+print("b :",b)
+
+#7 swap 2 numbers using 3rd variable 
+a=10;
+b=20;
+temp=a
+a=b
+b=temp
+print("after swapping :",a)
+print("after swapping :",b)
+
+# 8 write a python prohgram to print primitive datatypes int,float,bool 
+a=10
+b=3.14
+c=True 
+print("int:",a)
+print("float: ",b)
+print("bool:" ,c)
+
+# 9 write a python program print non primitive data type list,tuple,set,dictionary 
+my_list =(10,20,30,40)
+my_tuple=[1,2,3,4]
+my_set={100,200,300}
+my_dict={"apple":1,"boy":2}
+print(my_list)
+print(my_tuple)
+print(my_set)
+print(my_dict)
+
+# 10 write a python prigram to find the squares of a number  
+a=int(input("enter the value:"))
+squares=a*a
+print("squares :",squares)
+
+#11 find the average of 3 numbers 
+a=int(input("enter the first value :"))
+b=int(input("enter the second value :"))
+c=int(input("enter the third value :"))
+avg=(a+b+c)/3
+print("average of three numbers : ",avg)
+
+#12 write a python program take a number as a user input and multiply by 10  
+num=int(input("Enter the value :"))
+result=num*10
+print("the result :",result)
+
+#13. write a python program to convert min to sec
+min=int(input("Enter the value  "))
+sec=min*60
+print("seconds:",sec)
+
+#14.write a pytho program floating points
+a=float(input("enter the value :"))
+b=float(input("enter the value :"))
+c=a*b
+print(c)
+
+#15.find the longest of three numbers?
+a=int(input("enter the first value :"))
+b=int(input("enter the second value :"))
+c=int(input("enter the third value :"))
+d=max(a,b,c)
+print("largest number: ",d)
+
+#17.arthimetic operation
+a=10
+b=20
+print("addition of two numbers: ",a+b)
+print("sub of two numbers: ",a-b)
+print("mul of two numbers: ",a*b)
+print("div of two numbers: ",a%b)
+
+#18.logic operation (write a python program to print the number positive negative zero
+a=int(input("enter a number "))
+if(a>0):
+    print("postive")
+elif(a<0):
+    print("negative")
+elif(a==0):
+    print("Zero")
+else:
+    print("Error")
+
+#19.to find odd or even number
+a=int(input("enter a number "))
+if(a%2==0):
+    print("even number")
+else:
+    print("odd number")
+
+
+#20.to find the number if the number is divisible by 5 or 11
+num=int(input("enter a number "))
+if num%5==0 and  num%11==0:
+  print("number divisible by 5 and 11")
+else:
+    print("number is not divisible")
+        
