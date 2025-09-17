@@ -1,0 +1,66 @@
+#21.student pass the exam if 1) atleast 35 in the therory 2) atleast 15 in practical 3) total is more than 60
+theory =float(input("theory marks:"))
+practical =float(input("practical marks :"))
+if (theory >=35 and practical>=15):
+    print("passed")
+else:
+    print("failed")
+
+#22.to check the age group  using if else if
+age= int(input("enter your age: "))
+if(age<13):
+    print("you are a child: ")
+elif(age>=13 and age <=19):
+    print("you are a teenager")
+else:
+    print("adult")
+
+    
+#23.write a python program to check the grade using marks
+marks=int(input("enter your marks :"))
+if (marks>=90):
+    print("grade A")
+    print("excellent")
+elif (marks<90 and marks>=70):
+     print("grade B")
+     print("good")
+elif (marks<70 and marks>=50):
+     print("grade C")
+     print("average")
+elif (marks<50 and marks>=40):
+     print("grade D")
+     print("need improvement")
+else:
+    print("fail")
+
+#24 write a python program check week of the day 
+day=int(input("enter the number "))
+if(day==1):
+    print("SUNDAY")
+elif(day==2):
+    print("MONDAY")
+elif(day==3):
+    print("TUESDAY")
+elif(day==4):
+    print("WEDNESDAY")
+elif(day==5):
+    print("THURSDAY")
+elif(day==6):
+    print("FRIDAY") 
+elif(day==7):
+    print("SATURDAY")
+else:
+    print("NO DAY")
+    
+#25.WRITE A PYTHON PROGRAM TO CHECK THE MONTH
+month=int(input("enter the month "))
+if(month==2):
+    print("28 or 29 days in this month")
+elif (month in (4,6,9,11)):
+    print("30 days in this month")
+elif (month in (1,3,5,7,8,10,12)):
+    print("31 days in this month ")
+else:
+    print("invalid month")
+
+        
