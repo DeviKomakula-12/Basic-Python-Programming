@@ -1,0 +1,45 @@
+print("Welcome To KUMARI'S KITCHEN")
+print("Choose Your Menu")
+print("1.Tiffen items")
+print("2.Fast Food items")
+print("3.Lunch items")
+print("4.Snack items")
+print("5.Jucies & Cool Drinks")
+#print("6.Display all Your Menu")
+#print("7.cost of your menu")
+print("6.exit")
+menu=int(input("selected item is : "))
+if (menu==1):
+    print("Tiffen Items :\n available items :\n 1.dosa \n2.idly \n3.puri \n4.vada")   
+    no_of_items  = int(input("how many required : "))
+    each_one_cost = 50
+    cost = no_of_items * each_one_cost    
+    print("total cost for tiffens : ",cost)
+elif (menu==2):
+    print("Fast Food items :\n available items :\n 1.noodles \n2.panipuri \n3.fried rice \n4.manchuriya")   
+    no_of_items  = int(input("how many required : "))
+    each_one_cost = 100
+    cost = no_of_items * each_one_cost 
+    print("total cost for fast food : ",cost)
+elif (menu==3):
+    print("Lunch items :\n available items :\n 1.full meals \n2.non-veg curries \n3.veg curries \n4.curd")   
+    no_of_items  = int(input("how many required : "))
+    each_one_cost = 120
+    cost = no_of_items * each_one_cost 
+    print("total cost for lunch items : ",cost)
+elif (menu==4):
+    print("Snack iems  :\n available items :\n 1.cakes \n2.chocolates \n3.samosa \n4.bakery items")   
+    no_of_items  = int(input("how many required : "))
+    each_one_cost = 20
+    cost = no_of_items * each_one_cost 
+    print("total cost for fast food : ",cost)
+elif (menu==5):
+    print("Juices & Cool Drinks :\n available items :\n 1.apple juice \n2.pine apple juice \n3.watermelon juice \n4.papaya juice")   
+    no_of_items  = int(input("how many required : "))
+    each_one_cost = 70
+    cost = no_of_items * each_one_cost 
+    print("total cost for fast food : ",cost)
+elif (menu==6):
+    print ("exit")
+else:
+    print("invalid data")
