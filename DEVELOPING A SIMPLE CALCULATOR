@@ -1,0 +1,14 @@
+#developing a simple calculator 
+a=int(input("enter the number "))
+b=int(input("enter the number "))
+operator=(input("Enter the operator '+','-','*','%' "))
+if(operator=='+'):
+    print("ADDITION OF TWO NUMBERS ",a+b)
+elif(operator=='-'):
+    print("SUBSTRACTION OF TWO NUMBERS ",a-b)
+elif(operator=='*'):
+    print("MULTIPILICATION OF TWO NUMBERS ",a*b)
+elif(operator=='%'):
+    print("DIVISION OF TWO NUMBERS ",a%b)
+    
+        
