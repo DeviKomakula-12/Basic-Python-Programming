@@ -1,0 +1,9 @@
+#sum of all factorial numbers
+import math
+m=int(input("m="))
+n=int(input("n="))
+s=0
+for i in range(m,n+1):
+    s+=math.factorial(i)
+print("sum of factorial number :",s)
+    
