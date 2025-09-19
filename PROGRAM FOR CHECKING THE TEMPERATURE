@@ -1,0 +1,10 @@
+#Python program for checking the temperature is normal or cold or fever
+temp=float(input("enter the temperature"))
+if(temp<36.8):
+    print("cold")
+elif (temp>=36.8 and temp< 98.6):
+    print("normal")
+elif (temp>98.6):
+    print("fever")
+else:
+    print("Error")
