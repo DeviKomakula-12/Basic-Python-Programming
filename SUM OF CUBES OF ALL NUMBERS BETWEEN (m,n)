@@ -1,0 +1,10 @@
+#SUM OF CUBES OF ALL NUMBERS 
+m=int(input("m="))
+n=int(input("n="))
+sum=0
+if(m>n):
+   print(0)
+else :
+    for i in range (m,n+1):
+        sum+= i*i*i
+    print("sum: ",sum)
